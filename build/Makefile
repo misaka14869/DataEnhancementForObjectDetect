@@ -546,6 +546,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataEnhancementForObjectDetect.dir\build.make CMakeFiles/DataEnhancementForObjectDetect.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/file/PathUtils.obj: src/file/PathUtils.cpp.obj
+.PHONY : src/file/PathUtils.obj
+
+# target to build an object file
+src/file/PathUtils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataEnhancementForObjectDetect.dir\build.make CMakeFiles/DataEnhancementForObjectDetect.dir/src/file/PathUtils.cpp.obj
+.PHONY : src/file/PathUtils.cpp.obj
+
+src/file/PathUtils.i: src/file/PathUtils.cpp.i
+.PHONY : src/file/PathUtils.i
+
+# target to preprocess a source file
+src/file/PathUtils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataEnhancementForObjectDetect.dir\build.make CMakeFiles/DataEnhancementForObjectDetect.dir/src/file/PathUtils.cpp.i
+.PHONY : src/file/PathUtils.cpp.i
+
+src/file/PathUtils.s: src/file/PathUtils.cpp.s
+.PHONY : src/file/PathUtils.s
+
+# target to generate assembly for a file
+src/file/PathUtils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataEnhancementForObjectDetect.dir\build.make CMakeFiles/DataEnhancementForObjectDetect.dir/src/file/PathUtils.cpp.s
+.PHONY : src/file/PathUtils.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -589,6 +613,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/file/PathUtils.obj
+	@echo ... src/file/PathUtils.i
+	@echo ... src/file/PathUtils.s
 .PHONY : help
 
 

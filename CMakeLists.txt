@@ -4,7 +4,15 @@ project(DataEnhancementForObjectDetect VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
-add_executable(DataEnhancementForObjectDetect main.cpp)
+set(MY_INCLUDE include
+include/file
+)
+include_directories(${MY_INCLUDE})
+
+set(SOURCE main.cpp
+src/file/PathUtils.cpp
+)
+add_executable(DataEnhancementForObjectDetect ${SOURCE})
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

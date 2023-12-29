@@ -1,8 +1,14 @@
 [
 {
   "directory": "D:/code/GitProjects/DataEnhancementForObjectDetect/build",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE   -g -o CMakeFiles\\DataEnhancementForObjectDetect.dir\\main.cpp.obj -c D:\\code\\GitProjects\\DataEnhancementForObjectDetect\\main.cpp",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/DataEnhancementForObjectDetect.dir/includes_CXX.rsp -g -o CMakeFiles\\DataEnhancementForObjectDetect.dir\\main.cpp.obj -c D:\\code\\GitProjects\\DataEnhancementForObjectDetect\\main.cpp",
   "file": "D:/code/GitProjects/DataEnhancementForObjectDetect/main.cpp",
   "output": "CMakeFiles/DataEnhancementForObjectDetect.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/code/GitProjects/DataEnhancementForObjectDetect/build",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/DataEnhancementForObjectDetect.dir/includes_CXX.rsp -g -o CMakeFiles\\DataEnhancementForObjectDetect.dir\\src\\file\\PathUtils.cpp.obj -c D:\\code\\GitProjects\\DataEnhancementForObjectDetect\\src\\file\\PathUtils.cpp",
+  "file": "D:/code/GitProjects/DataEnhancementForObjectDetect/src/file/PathUtils.cpp",
+  "output": "CMakeFiles/DataEnhancementForObjectDetect.dir/src/file/PathUtils.cpp.obj"
 }
 ]
