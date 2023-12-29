@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/GitProjects/DataEnhancementForObjectDetect/main.cpp" "CMakeFiles/DataEnhancementForObjectDetect.dir/main.cpp.obj" "gcc" "CMakeFiles/DataEnhancementForObjectDetect.dir/main.cpp.obj.d"
+  "D:/code/GitProjects/DataEnhancementForObjectDetect/src/file/ImageFinder.cpp" "CMakeFiles/DataEnhancementForObjectDetect.dir/src/file/ImageFinder.cpp.obj" "gcc" "CMakeFiles/DataEnhancementForObjectDetect.dir/src/file/ImageFinder.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

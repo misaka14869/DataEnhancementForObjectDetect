@@ -546,6 +546,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataEnhancementForObjectDetect.dir\build.make CMakeFiles/DataEnhancementForObjectDetect.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/file/ImageFinder.obj: src/file/ImageFinder.cpp.obj
+.PHONY : src/file/ImageFinder.obj
+
+# target to build an object file
+src/file/ImageFinder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataEnhancementForObjectDetect.dir\build.make CMakeFiles/DataEnhancementForObjectDetect.dir/src/file/ImageFinder.cpp.obj
+.PHONY : src/file/ImageFinder.cpp.obj
+
+src/file/ImageFinder.i: src/file/ImageFinder.cpp.i
+.PHONY : src/file/ImageFinder.i
+
+# target to preprocess a source file
+src/file/ImageFinder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataEnhancementForObjectDetect.dir\build.make CMakeFiles/DataEnhancementForObjectDetect.dir/src/file/ImageFinder.cpp.i
+.PHONY : src/file/ImageFinder.cpp.i
+
+src/file/ImageFinder.s: src/file/ImageFinder.cpp.s
+.PHONY : src/file/ImageFinder.s
+
+# target to generate assembly for a file
+src/file/ImageFinder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataEnhancementForObjectDetect.dir\build.make CMakeFiles/DataEnhancementForObjectDetect.dir/src/file/ImageFinder.cpp.s
+.PHONY : src/file/ImageFinder.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -589,6 +613,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/file/ImageFinder.obj
+	@echo ... src/file/ImageFinder.i
+	@echo ... src/file/ImageFinder.s
 .PHONY : help
 
 
